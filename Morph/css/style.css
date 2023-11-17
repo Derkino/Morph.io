@@ -1,0 +1,79 @@
+.Morph_White_50 { background-color: rgba(255, 255, 255, 0.50); }
+.Morph_White_25 { background-color: rgba(255, 255, 255, 0.25); }
+.Morph_White_70 { background-color: rgba(255, 255, 255, 0.70); }
+
+.Morph_Black_50 { background-color: rgba(0, 0, 0, 0.50); }
+.Morph_Black_25 { background-color: rgba(0, 0, 0, 0.25); }
+.Morph_Black_70 { background-color: rgba(0, 0, 0, 0.70); }
+
+.Morph_Grey_50 { background-color: rgba(56, 58, 66, 0.50); }
+.Morph_Grey_25 { background-color: rgba(56, 58, 66, 0.25); }
+.Morph_Grey_70 { background-color: rgba(56, 58, 66, 0.70); }
+
+.Morph_Red_50 { background-color: rgba(222, 93, 84, 0.50); }
+.Morph_Red_25 { background-color: rgba(222, 93, 84, 0.25); }
+.Morph_Red_70 { background-color: rgba(222, 93, 84, 0.70); }
+
+.Morph_Pink_50 { background-color: rgba(255, 177, 140, 0.50); }
+.Morph_Pink_25 { background-color: rgba(255, 177, 140, 0.25); }
+.Morph_Pink_70 { background-color: rgba(255, 177, 140, 0.70); }
+
+.Morph_Purple_50 { background-color: rgba(208, 112, 212, 0.50); }
+.Morph_Purple_25 { background-color: rgba(208, 112, 212, 0.25); }
+.Morph_Purple_70 { background-color: rgba(208, 112, 212, 0.70); }
+
+.Morph_Green_50 { background-color: rgba(118, 227, 143, 0.50); }
+.Morph_Green_25 { background-color: rgba(118, 227, 143, 0.25); }
+.Morph_Green_70 { background-color: rgba(118, 227, 143, 0.70); }
+
+.Morph_Transition_Fade_05 { transition: .5s; transform: scale(0.90);  }
+.Morph_Transition_Fade_05:hover { transition: .5s; transform: scale(1);  }
+
+.Morph_Transition_Fade_052 { transition: .5s; transform: scale(1.0);  }
+.Morph_Transition_Fade_052:hover { transition: .5s; transform: scale(1.25);  }
+
+.Morph_Transition_Fade_1 { transition: 1s; transform: scale(0.90);  }
+.Morph_Transition_Fade_1:hover { transition: 1s; transform: scale(1);  }
+
+.Morph_Transition_Fade_03 { transition: .3s; transform: scale(0.90);  }
+.Morph_Transition_Fade_03:hover { transition: .3s; transform: scale(1);  }
+
+.Morph_Background_Cover { background-size: cover; background-position: center; background-repeat:no-repeat; }
+
+.Morph_Blur-3 { filter: blur(3px);  }
+.Morph_Blur-5 { filter: blur(5px);  }
+.Morph_Blur-8 { filter: blur(8px);  }
+.Morph_Blur-10 { filter: blur(10px);  }
+
+.Morph_w-100 { width: 100%; }
+.Morph_h-100 { height: 100%; }
+.Morph_h-100vh { min-height: 100vh; }
+
+.Morph_Fc_White { color: white; }
+.Morph_Fc_Black { color: black; }
+
+.Morph_Nav_Btn {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.Morph_Nav_Btn:hover {
+  color: #000;
+}
+
+.Morph_Nav_Btn::before { content: ""; position: absolute; display: block; width: 100%; height: 2px; bottom: 0; left: 0; background-color: green; transform: scaleX(0); transition: transform 0.3s ease;
+}
+
+.Morph_Nav_Btn:hover::before { transform: scaleX(1); }
+
+.Morph_smooth_zoom { 
+   transform: scale(0.95);
+   transition: .5s; }
+
+.Morph_smooth_zoom:hover {
+
+   transform: scale(1.0);
+   transition: .5s;
+   
+}
